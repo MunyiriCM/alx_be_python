@@ -1,25 +1,41 @@
 # daily_reminder.py
 
-# Prompt for task details
-task = input("Enter your task for today: ")
-priority = input("Set the task priority (high/medium/low): ").lower()
-time_bound = input("Is the task time-bound? (yes/no): ").lower()
+def get_input(prompt, valid_options=None):
+    while True:
+        response = input(prompt).strip().lower()
+        if valid_options:
+            if response in valid_options:
+                return response
+            else:
+                print(f"Please enter one of the following: {', '.join(valid_options)}")
+        else:
+            if response:
+                return response
+            else:
+                print("Input cannot be empty.")
 
-# Loop just to simulate repetition (runs once here)
-for _ in range(1):  # Single iteration to demonstrate loop usage
+def main():
+    task = get_input("Enter your task: ")
+    priority = get_input("Priority (high/medium/low): ", valid_options={"high", "medium", "low"})
+    time_bound = get_input("Is it time-bound? (yes/no): ", valid_options={"yes", "no"})
+
+    # Base reminder message
+    reminder = ""
+
     match priority:
         case "high":
-            reminder = f"🔴 HIGH PRIORITY: {task}"
+            reminder = f"'{task}' is a high priority task"
         case "medium":
-            reminder = f"🟡 MEDIUM PRIORITY: {task}"
+            reminder = f"'{task}' is a medium priority task"
         case "low":
-            reminder = f"🟢 LOW PRIORITY: {task}"
-        case _:
-            reminder = f"⚪ UNRECOGNIZED PRIORITY for task: {task}"
+            reminder = f"'{task}' is a low priority task"
 
-    # Modify reminder based on time sensitivity
     if time_bound == "yes":
-        reminder += " — that requires immediate attention today!"
+        reminder += " that requires immediate attention today!"
+    else:
+        reminder += ". Consider completing it when you have free time."
 
-# Print the customized reminder
-print(reminder)
+    print("\nReminder:", reminder)
+
+if __name__ == "__main__":
+    main()
