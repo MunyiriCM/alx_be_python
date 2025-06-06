@@ -1,10 +1,7 @@
 # arithmetic_operations.py
 
-perform_operation=" "
-num1=""
-num2=""
 
-def perform_operation(num1: float, num2: float, operation: str):
+def perform_operation(num1, num2, operation):
     """
     Performs basic arithmetic operations based on the provided numbers and operation.
 
