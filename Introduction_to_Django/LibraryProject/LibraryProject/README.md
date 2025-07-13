@@ -1,6 +1,0 @@
-Django App
-What else do you want me to do bruv
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis quis nibh aliquet, sagittis eros sit amet, viverra erat. Proin nunc ex, vulputate quis varius id, accumsan ut lectus. Nam massa lectus, convallis pharetra congue eget, lobortis sed justo. Sed vitae nulla sed tortor lobortis aliquam. Donec non congue mauris. Pellentesque auctor tristique arcu, sit amet eleifend risus blandit ac. Suspendisse ultrices magna odio, nec gravida lectus sagittis sed. Suspendisse vehicula eros id risus dignissim suscipit. Ut in tortor eget tellus sodales interdum quis sed dui. Etiam vulputate nisi massa. Aenean non convallis urna. Quisque facilisis risus vitae ante rhoncus aliquet. Phasellus mattis consectetur sollicitudin. Vivamus vel lacus iaculis, vulputate diam non, viverra purus. Curabitur fermentum erat dolor.
-
-Praesent mollis ultrices erat sed commodo. In ac eros eget quam efficitur imperdiet. Nam eu rutrum magna. Sed convallis dapibus arcu eget tempor. Sed porta erat sed urna ultricies, at blandit metus volutpat. Mauris a posuere sem. Cras molestie lorem lectus, porta bibendum nunc fringilla in. Cras sagittis mi eget eros molestie, a cursus mauris fermentum. Sed id pellentesque tellus. Donec consequat rutrum eros at feugiat. Morbi eu porta ipsum.
